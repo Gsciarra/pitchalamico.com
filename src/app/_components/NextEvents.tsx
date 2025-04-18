@@ -1,13 +1,5 @@
-import { Button } from "~/app/_components/ui/button";
-import Link from "next/link";
 import Section from "~/app/_components/Section";
-import {
-  Building,
-  Calendar,
-  CalendarIcon,
-  MapPin,
-  MapPinIcon,
-} from "lucide-react";
+import { Building, Calendar } from "lucide-react";
 import SignUpButton from "~/app/_components/SignUpButton";
 import {
   Card,

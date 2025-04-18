@@ -28,7 +28,7 @@ export const eventsRouter = createTRPCRouter({
   create: publicProcedure
     .input(newEventSchema)
     .mutation(async ({ ctx, input }) => {
-      const isAuthenticated = !!ctx.auth.userId;
+      // const isAuthenticated = !!ctx.auth.userId;
       await ctx.db.insert(eventsTable).values(input);
     }),
 
